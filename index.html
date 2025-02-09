@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Edad Star Wars</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Edad Star Wars</h1>
+      <p>Ingresa tu edad y selecciona una especie:</p>
+      <input type="number" id="humanAge" placeholder="Tu edad" min="0" />
+      <select id="species">
+        <option value="80">Humano</option>
+        <option value="400">Wookiee</option>
+        <option value="900">Especie de Yoda</option>
+        <option value="85">Twi’lek</option>
+        <option value="60">Ewok</option>
+      </select>
+      <button onclick="calculateEquivalentAge()">Calcular</button>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

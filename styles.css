@@ -1,0 +1,57 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("resources/geonosis-battle.webp"); /* Imagen de la Primera Batalla de Geonosis */
+  background-size: cover;
+  background-position: center;
+  color: #ffe81f; /* Texto amarillo inspirado en Star Wars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 10px;
+  border: 2px solid #ffe81f; /* Borde amarillo */
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffe81f;
+}
+
+button {
+  cursor: pointer;
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
